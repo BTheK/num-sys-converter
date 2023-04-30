@@ -6,7 +6,7 @@ def pascal(current_list):
     return new_list
 
 
-n = int(input())
+n = int(input('Enter the power of your mathematical expression'))
 li = [1]
 for _ in range(n):
     li = pascal(li)
